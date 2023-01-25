@@ -1,0 +1,11 @@
+[package]
+name = "insert"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "A simple file templating tool for developers"
+repository = "https://github.com/kylechamberlin/insert"
+homepage = "https://docs.rs/insert"
+readme = "README.md"
+
+[dependencies]
