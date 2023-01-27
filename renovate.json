@@ -2,8 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "schedule:hourly",
     ":disableRatelimiting",
+  ],
+  "schedule": [
+    "before 11pm",
+    "after 1am"
   ],
   "packageRules": [
     {
