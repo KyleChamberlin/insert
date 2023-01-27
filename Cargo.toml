@@ -9,3 +9,4 @@ homepage = "https://docs.rs/insert"
 readme = "README.md"
 
 [dependencies]
+clap = "2.0.0"
