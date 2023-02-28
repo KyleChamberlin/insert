@@ -10,3 +10,6 @@ readme = "README.md"
 
 [dependencies]
 clap = "4.1.7"
+
+[profile.release]
+strip = true
