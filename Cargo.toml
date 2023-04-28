@@ -9,7 +9,7 @@ homepage = "https://docs.rs/insert"
 readme = "README.md"
 
 [dependencies]
-clap = "4.2.4"
+clap = "4.2.5"
 
 [profile.release]
 strip = true
