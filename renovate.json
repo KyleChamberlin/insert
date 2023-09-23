@@ -10,11 +10,12 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
+        "major",
         "minor",
         "patch"
       ],
       "automerge": true,
-    },
+    }
   ],
   "lockFileMaintenance": {
     "enabled": true,
